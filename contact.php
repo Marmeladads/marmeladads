@@ -6,7 +6,7 @@ if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
 		$message = $_POST ['message'];
 		$subject = "Website TGO";
 
-		$to = "support@thingsgo.online"; //change email here.
+		$to = "contato@marmeladads.com"; //change email here.
 		$body = "";
 
 		$body .= "From: ".$userName. "\r\n";

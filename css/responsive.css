@@ -167,7 +167,7 @@
 	.mega-menu .menu-logo img { height: 36px; }
 	.mega-menu .menu-logo { padding: 35px 0px; }
 	.mega-menu .menu-mobile-collapse-trigger:before, .mega-menu .menu-mobile-collapse-trigger:after, .mega-menu .menu-mobile-collapse-trigger span { background: #353535; }
-	.mega-menu .menu-mobile-collapse-trigger { top: 40px; }
+	.mega-menu .menu-mobile-collapse-trigger { top: 25px; }
 	.mega-menu { min-height: 76px; }
 	.mega-menu .menu-links > li > a { line-height: 26px; height: auto!important;}
 	.search-button { padding: 10px 0 6px; }
@@ -185,9 +185,9 @@
 	#header.topbar-dark .mega-menu .menu-links > li > a { line-height: 26px; }
 	#header.topbar-dark .mega-menu .menu-links > li:first-child a { padding-left: 12px; }
 
-	#header.transparent { position: relative; width: 100%; background: #353535; }
-	#header.transparent .mega-menu .menu-links > li a { color: #353535; }
-	#header.transparent .mega-menu .menu-links > li.active a { color: #37D895; }
+	#header.transparent { position: relative; width: 100%; background: #231f20; }
+	#header.transparent .mega-menu .menu-links > li a { color: #fff; }
+	#header.transparent .mega-menu .menu-links > li.active a { color: #ffc107; }
 	#header.transparent .search-trigger::before { border-color: #353535; }
 	#header.transparent .search-trigger::after { background: #353535; }
 	#header.transparent .search-trigger span::before, #header.transparent .search-trigger span::after { background: #353535; }
@@ -232,6 +232,7 @@
 
 	.progress-bar-main .row-eq-height { display: block; }
 	.progress-bar-main .col-md-6 img { margin-bottom: 20px; }
+	.imgsobre {margin-top: 5px; margin-left: 16px;}
 
 }
 
@@ -271,7 +272,8 @@
 	.parallax-three { background-position-x:-100%;	}
 	.img-mg {margin-left: -30px;}
 	.img-mg-4{margin-left: 10%;}
-
+	.button-talk-to-us{margin-left: 35%;}
+	.section-eight {margin-top: -50px;}
 	.intro-title .intro-content .intro-name{padding:70px 0px 70px 0px;}
 	.intro-title.dark .intro-content .intro-name{padding:70px 0px;}
 
@@ -418,7 +420,7 @@
 	.col-xx-12{width:100%;}
 	.section-title span { font-size: 12px; }
 	ul.list-style-right li i { padding-right: 5px; }
-
+	.imgsobre {max-width: 300px}
 	.welcome-01 .button:last-child { margin-top: 15px; }
 
 	.accordion .acd-group > .acd-heading > span { margin-right: 5px; }

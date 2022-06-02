@@ -33,10 +33,11 @@
   .mega-menu * {
     word-break: break-all;
   }
-  .button-white-paper {
+  .button-talk-to-us {
     top: 0!important;
     margin: 10px 5px;
     left:0!important;
+    margin-left: 40%;
   }
 }
 .mega-menu i.fa {
@@ -152,7 +153,7 @@
   float: right;
 }
 @media screen and (max-width: 992px) {
-  .mega-menu .menu-links { width: 100%; background: #fff; position: absolute; top: 93px; left: 0;  }
+  .mega-menu .menu-links { width: 100%; background: #231f20; position: absolute; top: 93px; left: 0;  }
 #header.topbar-dark .mega-menu .menu-links{top: 0;}
 #header.topbar-dark .mega-menu hr{border: none;}
 }
@@ -181,8 +182,9 @@
     position: relative;
     cursor: pointer;
     line-height: normal;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid #ffc107;
     z-index: 50;
+    text-align: center;
   }
   .mega-menu .menu-links > li.activeTriggerMobile {
     /*background-color: #2046f2;*/
@@ -1384,7 +1386,7 @@
     margin: 0px;
   }
   .mega-menu.desktopTopFixed .menu-list-items .menu-logo > li > a img {
-    height: 30px;
+    height: 35px;
     top: 3px;
     padding-top: 0px;
     /*margin: 15px 0px;*/
