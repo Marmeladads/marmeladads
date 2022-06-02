@@ -321,10 +321,40 @@ hr.star-testimonial:after {
     color: #231f20;
     background-color: #fff;
 }
+hr.star-contact,
+hr.star-primary {
+    margin: 20px auto 20px;
+    padding: 0;
+    max-width: 333px;
+    border: 0;
+    border-top: solid 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+hr.star-contact:after,
+hr.star-primary:after {
+    content: "\f075";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+hr.star-contact {
+    border-color: #fff;
+}
+
+hr.star-contact:after {
+    color: #fff;
+    background-color: #231f20;
+}
 
 
 
 .section-title { margin-bottom: 40px; }
+.section-contact-title { margin-bottom: 20px; }
 .section-title span { display: block; text-transform: uppercase; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 10px; }
 .form-control { border-radius: 10px; height: auto; line-height: 1.33333; padding: 15px 18px 15px 30px; background: transparent; color: #aaaaaa; border: 1px solid transparent; box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1); }
 .form-control:focus { box-shadow: none; border: 1px solid #FFB540; }
@@ -893,7 +923,7 @@ ul.list-style-icon li span { color: #2046f2; padding-right: 15px; }
 .footer.light .copyright ul li a { color: #353535; }
 .footer.light .copyright ul li a:hover { color: #4d6bf5; }
 div#main { z-index: 1; position: relative; }
-.footer-dark { padding: 71px 0px 0px; }
+.footer-dark { padding: 40px 0px 0px; }
 .footer-dark { /*position: fixed;*/ left: 0; bottom: 0; width: 100%; z-index: 0; }
 .footer-dark .footer-logo img { height: 70px; }
 .footer-logo {max-width: 70%;}
