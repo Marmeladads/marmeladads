@@ -32,6 +32,7 @@
 	.parallax-three { background-position-x:260%;	}
   .img-mg-responsive{margin-left:15%;}
   .img-mg {margin-left: 90px}
+	.mt100 {margin-top: 85px;}
 }
 
 /************************* 1024px *************************/
@@ -232,7 +233,7 @@
 
 	.progress-bar-main .row-eq-height { display: block; }
 	.progress-bar-main .col-md-6 img { margin-bottom: 20px; }
-	.imgsobre {margin-top: 5px; margin-left: 16px;}
+	/*.imgsobre {margin-top: 5px; margin-left: 16px;}*/
 
 }
 
@@ -276,7 +277,7 @@
 	.section-eight {margin-top: -50px;}
 	.intro-title .intro-content .intro-name{padding:70px 0px 70px 0px;}
 	.intro-title.dark .intro-content .intro-name{padding:70px 0px;}
-
+  .mt100 {margin-top: 40px;}
 	.education { background: none !important; }
 	.feature-box-01.round .feature-box-img.mb-2 { margin-bottom: 10px !important; }
 	.education .feature-box-01.round { margin-bottom: 30px; }
