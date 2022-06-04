@@ -412,6 +412,7 @@
 	.img-mg-responsive{margin-left: 0px;}
 	.img-mg {margin-left: 0px}
 	.img-mg-4{margin-left: 0%;}
+	.caption {padding: 10px!important;font-size: 15px!important;}
 }
 /************************* 320px *************************/
 @media (max-width:479px) {
