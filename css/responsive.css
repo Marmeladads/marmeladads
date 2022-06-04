@@ -177,7 +177,8 @@
 	.search input { font-size: 24px; height: 86px; }
 	.mega-menu .drop-down [class*="grid-col-"], .mega-menu .drop-down-tab-bar [class*="grid-col-"] { padding: 0px 10px; }
 	.mega-menu .drop-down ul, .mega-menu .drop-down ol, .mega-menu .drop-down dl, .mega-menu .drop-down-tab-bar ul, .mega-menu .drop-down-tab-bar ol, .mega-menu .drop-down-tab-bar dl { margin: 0px;  }
-
+  .main-slider {padding-top: 0px!important;}
+	.pt-9{padding-top: 30px;}
 	#header.topbar-dark .mega-menu .menu-logo { padding: 5px 0px; }
 	#header.topbar-dark .header-info { display: none; }
 	#header.topbar-dark .nav-add { position: absolute; top: -71px; right: 50px; }
