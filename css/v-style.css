@@ -35,7 +35,7 @@
 
 .slick-slide {
   position: relative;
-  height: 50vw;
+  height: 50vw!important;
 }
 .slick-slide::before {
   background-color: #000;
